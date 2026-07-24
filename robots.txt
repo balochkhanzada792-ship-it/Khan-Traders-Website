@@ -1,0 +1,6 @@
+# robots.txt for Khan Traders & Al Shahbaaz Zarai Allaat
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://khantradersalshahbaz.com/sitemap.xml
