@@ -107,15 +107,16 @@
         <nav aria-label="Main navigation">
             <img src="images/logo.jpg" alt="Khan Traders & Al Shahbaaz Zarai Allaat – Agricultural Machinery Dealer in Adda Daina More" width="320" height="240" decoding="async">
             <h1>Khan Traders & Al Shahbaaz Zarai Allaat</h1>
+            <button class="lang-toggle" type="button" aria-label="Switch to Urdu" data-lang-toggle>اردو</button>
             <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" aria-current="page">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" aria-current="page" data-i18n="nav.about">About</a></li>
+                <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -124,12 +125,12 @@
     <nav aria-label="Breadcrumb">
         <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="index.html"><span itemprop="name">Home</span></a>
+                <a itemprop="item" href="index.html"><span itemprop="name" data-i18n="nav.home">Home</span></a>
                 <meta itemprop="position" content="1">
                 <span style="margin:0 4px;color:#8a9b8e;">›</span>
             </li>
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name" style="color:#425248;font-weight:600;">About Us</span>
+                <span itemprop="name" style="color:#425248;font-weight:600;" data-i18n="about.breadcrumb">About Us</span>
                 <meta itemprop="position" content="2">
             </li>
         </ol>
@@ -140,97 +141,97 @@
         <section class="hero" aria-label="About our company">
             <img src="images/logo.jpg" alt="Khan Traders & Al Shahbaaz Zarai Allaat – Agricultural Machinery Dealer in Adda Daina More" width="320" height="240" decoding="async" class="hero-logo reveal">
             <div class="hero-text reveal">
-                <h2>About Our Company</h2>
-                <p>Khan Traders & Al Shahbaaz Zarai Allaat is a trusted agricultural machinery dealer located at Adda Daina More, Pakistan. We are committed to providing high-quality farming equipment with reliable customer service and affordable prices.</p>
+                <h2 data-i18n="about.title">About Our Company</h2>
+                <p data-i18n="about.text">Khan Traders & Al Shahbaaz Zarai Allaat is a trusted agricultural machinery dealer located at Adda Daina More, Pakistan. We are committed to providing high-quality farming equipment with reliable customer service and affordable prices.</p>
             </div>
         </section>
 
         <!-- Stats -->
         <section class="stats" aria-label="Company statistics">
-            <h2 class="reveal">Our Impact</h2>
+            <h2 class="reveal" data-i18n="stats.title">Our Impact</h2>
             <div class="stats-grid">
                 <div class="stat-item reveal">
                     <h3 data-count="500">0+</h3>
-                    <p>Farmers Served</p>
+                    <p data-i18n="stats.farmers">Farmers Served</p>
                 </div>
                 <div class="stat-item reveal">
                     <h3 data-count="15">0+</h3>
-                    <p>Years Experience</p>
+                    <p data-i18n="stats.experience">Years Experience</p>
                 </div>
                 <div class="stat-item reveal">
                     <h3 data-count="8">0+</h3>
-                    <p>Machine Types</p>
+                    <p data-i18n="stats.machines">Machine Types</p>
                 </div>
                 <div class="stat-item reveal">
                     <h3 data-count="100">0+</h3>
-                    <p>Satisfied Villages</p>
+                    <p data-i18n="stats.villages">Satisfied Villages</p>
                 </div>
             </div>
         </section>
 
         <section class="why" aria-label="Company mission, vision and values">
-            <h2 class="reveal">Who We Are</h2>
+            <h2 class="reveal" data-i18n="about.who">Who We Are</h2>
             <div class="why-box">
                 <div class="why-card reveal-left">
-                    <h3>🌾 Our Mission</h3>
-                    <p>Our mission is to provide modern agricultural machinery that helps farmers increase productivity while reducing time, effort and operational costs.</p>
+                    <h3 data-i18n="about.mission">🌾 Our Mission</h3>
+                    <p data-i18n="about.missionText">Our mission is to provide modern agricultural machinery that helps farmers increase productivity while reducing time, effort and operational costs.</p>
                 </div>
                 <div class="why-card reveal-right">
-                    <h3>🎯 Our Vision</h3>
-                    <p>We aim to become one of Pakistan's most trusted suppliers of agricultural machinery through quality products and excellent customer service.</p>
+                    <h3 data-i18n="about.vision">🎯 Our Vision</h3>
+                    <p data-i18n="about.visionText">We aim to become one of Pakistan's most trusted suppliers of agricultural machinery through quality products and excellent customer service.</p>
                 </div>
                 <div class="why-card reveal-left">
-                    <h3>🚜 What We Offer</h3>
-                    <p>Wheat Threshers, Rice Threshers, Rotavators, Laser Land Levelers, Seed Drills, Multi Crop Threshers, Spare Parts and many other agricultural machines.</p>
+                    <h3 data-i18n="about.offer">🚜 What We Offer</h3>
+                    <p data-i18n="about.offerText">Wheat Threshers, Rice Threshers, Rotavators, Laser Land Levelers, Seed Drills, Multi Crop Threshers, Spare Parts and many other agricultural machines.</p>
                 </div>
                 <div class="why-card reveal-right">
-                    <h3>🤝 Why Farmers Trust Us</h3>
-                    <p>Genuine machinery, competitive prices, easy installment plans, after-sales support and honest customer dealing.</p>
+                    <h3 data-i18n="about.trust">🤝 Why Farmers Trust Us</h3>
+                    <p data-i18n="about.trustText">Genuine machinery, competitive prices, easy installment plans, after-sales support and honest customer dealing.</p>
                 </div>
             </div>
         </section>
 
         <!-- FAQ -->
         <section class="faq" aria-label="Frequently asked questions about our company">
-            <h2 class="reveal">Common Questions</h2>
+            <h2 class="reveal" data-i18n="about.faqTitle">Common Questions</h2>
             <div class="faq-list">
                 <div class="faq-item reveal">
-                    <button class="faq-question" aria-expanded="false">Where are you located?</button>
+                    <button class="faq-question" aria-expanded="false" data-i18n="about.faqQ1">Where are you located?</button>
                     <div class="faq-answer">
-                        <p>We are located at Adda Daina More, Tehsil Ahmadpur Sial, District Jhang, Punjab, Pakistan.</p>
+                        <p data-i18n="about.faqA1">We are located at Adda Daina More, Tehsil Ahmadpur Sial, District Jhang, Punjab, Pakistan.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
-                    <button class="faq-question" aria-expanded="false">What are your business hours?</button>
+                    <button class="faq-question" aria-expanded="false" data-i18n="about.faqQ2">What are your business hours?</button>
                     <div class="faq-answer">
-                        <p>We are open daily from 8:00 AM to 8:00 PM. You can also call us anytime for inquiries.</p>
+                        <p data-i18n="about.faqA2">We are open daily from 8:00 AM to 8:00 PM. You can also call us anytime for inquiries.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
-                    <button class="faq-question" aria-expanded="false">Do you provide after-sales service?</button>
+                    <button class="faq-question" aria-expanded="false" data-i18n="about.faqQ3">Do you provide after-sales service?</button>
                     <div class="faq-answer">
-                        <p>Yes, we provide complete after-sales support and guidance for all our agricultural machinery.</p>
+                        <p data-i18n="about.faqA3">Yes, we provide complete after-sales support and guidance for all our agricultural machinery.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="contact-home" aria-label="Contact information and call to action">
-            <h2 class="reveal">Need More Information?</h2>
-            <p>Our team is always ready to help you choose the right agricultural machinery.</p>
+            <h2 class="reveal" data-i18n="contact.more">Need More Information?</h2>
+            <p data-i18n="contact.moreText">Our team is always ready to help you choose the right agricultural machinery.</p>
             <br>
-            <a href="tel:03008312814" class="btn">📞 Call Now</a>
-            <a href="https://wa.me/923007919158" class="btn btn-whatsapp">💬 WhatsApp</a>
+            <a href="tel:03008312814" class="btn" data-i18n="cta.call">📞 Call Now</a>
+            <a href="https://wa.me/923007919158" class="btn btn-whatsapp" data-i18n="cta.whatsapp">💬 WhatsApp</a>
         </section>
 
     </main>
 
     <footer>
         <h3>Khan Traders & Al Shahbaaz Zarai Allaat</h3>
-        <p>Trusted Agricultural Machinery Dealer</p>
-        <p>📍 Adda Daina More, Tehsil Ahmadpur Sial, Jhang</p>
-        <p>📞 0300-8312814</p>
-        <p>💬 WhatsApp: 0300-7919158</p>
+        <p data-i18n="footer.tagline">Trusted Agricultural Machinery Dealer</p>
+        <p data-i18n="footer.address">📍 Adda Daina More, Tehsil Ahmadpur Sial, Jhang</p>
+        <p data-i18n="footer.phone">📞 0300-8312814</p>
+        <p data-i18n="footer.whatsapp">💬 WhatsApp: 0300-7919158</p>
     <p>&copy; 2026 Khan Traders & Al Shahbaaz Zarai Allaat. All Rights Reserved.</p>
     <p style="margin-top:10px;font-size:14px;opacity:0.7;">Designed & Developed by M I K</p>
 </footer>

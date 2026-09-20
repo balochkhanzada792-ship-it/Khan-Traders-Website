@@ -135,15 +135,16 @@
         <nav aria-label="Main navigation">
             <img src="images/logo.jpg" alt="Khan Traders & Al Shahbaaz Zarai Allaat – Agricultural Machinery Dealer in Adda Daina More" width="320" height="240" decoding="async">
             <h1>Khan Traders & Al Shahbaaz Zarai Allaat</h1>
+            <button class="lang-toggle" type="button" aria-label="Switch to Urdu" data-lang-toggle>اردو</button>
             <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul>
-                <li><a href="index.html" aria-current="page">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" aria-current="page" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+                <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -154,97 +155,97 @@
         <section class="hero" aria-label="Welcome and introduction">
             <img src="images/logo.jpg" alt="Khan Traders & Al Shahbaaz Zarai Allaat – Agricultural Machinery Dealer in Adda Daina More" width="320" height="240" decoding="async" class="hero-logo reveal">
             <div class="hero-text reveal">
-                <h2>Pakistan's Trusted Agricultural Machinery Dealer</h2>
-                <p>Providing high-quality agricultural machinery with reliable service, genuine products and easy installment plans for farmers across Pakistan.</p>
-                <a href="tel:03008312814" class="btn">📞 Call Now</a>
-                <a href="https://wa.me/923007919158" class="btn btn-whatsapp">💬 WhatsApp</a>
-                <a href="products.html" class="btn btn-outline">View Products</a>
+                <h2 data-i18n="home.title">Pakistan's Trusted Agricultural Machinery Dealer</h2>
+                <p data-i18n="home.subtitle">Providing high-quality agricultural machinery with reliable service, genuine products and easy installment plans for farmers across Pakistan.</p>
+                <a href="tel:03008312814" class="btn" data-i18n="cta.call">📞 Call Now</a>
+                <a href="https://wa.me/923007919158" class="btn btn-whatsapp" data-i18n="cta.whatsapp">💬 WhatsApp</a>
+                <a href="products.html" class="btn btn-outline" data-i18n="cta.products">View Products</a>
             </div>
         </section>
 
         <!-- Stats Counter -->
         <section class="stats" aria-label="Company statistics">
-            <h2 class="reveal">Our Impact</h2>
+            <h2 class="reveal" data-i18n="stats.title">Our Impact</h2>
             <div class="stats-grid">
                 <div class="stat-item reveal">
                     <h3 data-count="500">0+</h3>
-                    <p>Farmers Served</p>
+                    <p data-i18n="stats.farmers">Farmers Served</p>
                 </div>
                 <div class="stat-item reveal">
                     <h3 data-count="15">0+</h3>
-                    <p>Years Experience</p>
+                    <p data-i18n="stats.experience">Years Experience</p>
                 </div>
                 <div class="stat-item reveal">
                     <h3 data-count="8">0+</h3>
-                    <p>Machine Types</p>
+                    <p data-i18n="stats.machines">Machine Types</p>
                 </div>
                 <div class="stat-item reveal">
                     <h3 data-count="100">0+</h3>
-                    <p>Satisfied Villages</p>
+                    <p data-i18n="stats.villages">Satisfied Villages</p>
                 </div>
             </div>
         </section>
 
         <!-- Trending Products -->
         <section class="products" aria-label="Trending agricultural machinery products">
-            <h2 class="reveal">Trending Products</h2>
+            <h2 class="reveal" data-i18n="products.title">Trending Products</h2>
             <div class="product-container">
                 <div class="card reveal-left">
                     <img src="images/rice-thresher.jpg" alt="High-performance Rice Thresher machine for fast and efficient harvesting – Khan Traders" width="960" height="720" loading="lazy" decoding="async">
-                    <h3>Rice Thresher</h3>
-                    <p>High-performance Rice Thresher designed for fast, clean and efficient harvesting with dependable performance.</p>
-                    <a href="products.html" class="btn">View Details</a>
+                    <h3 data-i18n="product.riceName">Rice Thresher</h3>
+                    <p data-i18n="product.riceDesc">High-performance Rice Thresher designed for fast, clean and efficient harvesting with dependable performance.</p>
+                    <a href="products.html" class="btn" data-i18n="cta.details">View Details</a>
                 </div>
                 <div class="card reveal-right">
                     <img src="images/laser-land-leveler.jpg" alt="Advanced Laser Land Leveler for accurate field leveling and better irrigation – Khan Traders" width="960" height="720" loading="lazy" decoding="async">
-                    <h3>Laser Land Leveler</h3>
-                    <p>Advanced Laser Land Leveler for accurate field leveling, improved irrigation and better crop production.</p>
-                    <a href="products.html" class="btn">View Details</a>
+                    <h3 data-i18n="product.laserName">Laser Land Leveler</h3>
+                    <p data-i18n="product.laserDesc">Advanced Laser Land Leveler for accurate field leveling, improved irrigation and better crop production.</p>
+                    <a href="products.html" class="btn" data-i18n="cta.details">View Details</a>
                 </div>
             </div>
         </section>
 
         <!-- Why Choose Us -->
         <section class="why" aria-label="Why choose Khan Traders for agricultural machinery">
-            <h2 class="reveal">Why Choose Us?</h2>
+            <h2 class="reveal" data-i18n="why.title">Why Choose Us?</h2>
             <div class="why-box">
                 <div class="why-card reveal-left">
-                    <h3>✅ Genuine Products</h3>
-                    <p>We provide genuine and high-quality agricultural machinery for modern farming.</p>
+                    <h3 data-i18n="why.genuine">✅ Genuine Products</h3>
+                    <p data-i18n="why.genuineText">We provide genuine and high-quality agricultural machinery for modern farming.</p>
                 </div>
                 <div class="why-card reveal-right">
-                    <h3>💰 Easy Installments</h3>
-                    <p>Flexible installment plans are available for selected agricultural machinery.</p>
+                    <h3 data-i18n="why.installments">💰 Easy Installments</h3>
+                    <p data-i18n="why.installmentsText">Flexible installment plans are available for selected agricultural machinery.</p>
                 </div>
                 <div class="why-card reveal-left">
-                    <h3>🚚 Fast Delivery</h3>
-                    <p>Quick and reliable delivery service to farmers across Pakistan.</p>
+                    <h3 data-i18n="why.delivery">🚚 Fast Delivery</h3>
+                    <p data-i18n="why.deliveryText">Quick and reliable delivery service to farmers across Pakistan.</p>
                 </div>
                 <div class="why-card reveal-right">
-                    <h3>🤝 Trusted Dealer</h3>
-                    <p>Trusted by farmers for quality products, fair prices and excellent service.</p>
+                    <h3 data-i18n="why.trusted">🤝 Trusted Dealer</h3>
+                    <p data-i18n="why.trustedText">Trusted by farmers for quality products, fair prices and excellent service.</p>
                 </div>
             </div>
         </section>
 
         <!-- Testimonials -->
         <section class="testimonials" aria-label="Customer testimonials">
-            <h2 class="reveal">What Our Farmers Say</h2>
+            <h2 class="reveal" data-i18n="testimonials.title">What Our Farmers Say</h2>
             <div class="testimonial-carousel reveal">
                 <div class="testimonial-slide">
-                    <p>"I bought a Wheat Thresher from Khan Traders. The quality is excellent and the installment plan made it very affordable. Highly recommended!"</p>
-                    <div class="author">— Muhammad Ramzan</div>
-                    <div class="location">Ahmadpur Sial, Jhang</div>
+                    <p data-i18n="testimonial.one">"I bought a Wheat Thresher from Khan Traders. The quality is excellent and the installment plan made it very affordable. Highly recommended!"</p>
+                    <div class="author" data-i18n="testimonial.oneAuthor">— Muhammad Ramzan</div>
+                    <div class="location" data-i18n="testimonial.oneCity">Ahmadpur Sial, Jhang</div>
                 </div>
                 <div class="testimonial-slide">
-                    <p>"Best agricultural machinery dealer in our area. Their Laser Land Leveler improved my crop yield significantly. Great after-sales service!"</div>
-                    <div class="author">— Saleem Akhtar</div>
-                    <div class="location">Shorkot, Jhang</div>
+                    <p data-i18n="testimonial.two">"Best agricultural machinery dealer in our area. Their Laser Land Leveler improved my crop yield significantly. Great after-sales service!"</p>
+                    <div class="author" data-i18n="testimonial.twoAuthor">— Saleem Akhtar</div>
+                    <div class="location" data-i18n="testimonial.twoCity">Shorkot, Jhang</div>
                 </div>
                 <div class="testimonial-slide">
-                    <p>"I've been buying spare parts from Khan Traders for years. They always have genuine products at fair prices. Trustworthy business."</p>
-                    <div class="author">— Allah Ditta</div>
-                    <div class="location">Adda Daina More, Jhang</div>
+                    <p data-i18n="testimonial.three">"I've been buying spare parts from Khan Traders for years. They always have genuine products at fair prices. Trustworthy business."</p>
+                    <div class="author" data-i18n="testimonial.threeAuthor">— Allah Ditta</div>
+                    <div class="location" data-i18n="testimonial.threeCity">Adda Daina More, Jhang</div>
                 </div>
             </div>
             <div class="testimonial-dots" role="tablist" aria-label="Testimonial navigation"></div>
@@ -252,38 +253,38 @@
 
         <!-- Installment Section -->
         <section class="installment-section" aria-label="Easy installment plans information">
-            <h2 class="reveal">Easy Installment Plans</h2>
-            <p>Buy your agricultural machinery with convenient monthly installment plans. Contact us today for complete details.</p>
-            <a href="tel:03008312814" class="btn">📞 Call Now</a>
-            <a href="https://wa.me/923007919158" class="btn btn-whatsapp">💬 WhatsApp</a>
+            <h2 class="reveal" data-i18n="installment.title">Easy Installment Plans</h2>
+            <p data-i18n="installment.text">Buy your agricultural machinery with convenient monthly installment plans. Contact us today for complete details.</p>
+            <a href="tel:03008312814" class="btn" data-i18n="cta.call">📞 Call Now</a>
+            <a href="https://wa.me/923007919158" class="btn btn-whatsapp" data-i18n="cta.whatsapp">💬 WhatsApp</a>
         </section>
 
         <!-- FAQ -->
         <section class="faq" aria-label="Frequently asked questions">
-            <h2 class="reveal">Frequently Asked Questions</h2>
+            <h2 class="reveal" data-i18n="faq.title">Frequently Asked Questions</h2>
             <div class="faq-list">
                 <div class="faq-item reveal">
-                    <button class="faq-question" aria-expanded="false">What types of agricultural machinery do you offer?</button>
+                    <button class="faq-question" aria-expanded="false" data-i18n="faq.q1">What types of agricultural machinery do you offer?</button>
                     <div class="faq-answer">
-                        <p>We offer a wide range including Wheat Threshers, Rice Threshers, Laser Land Levelers, Rotavators, Reaper Machines, Seed Drills, Multi Crop Threshers, and genuine spare parts.</p>
+                        <p data-i18n="faq.a1">We offer a wide range including Wheat Threshers, Rice Threshers, Laser Land Levelers, Rotavators, Reaper Machines, Seed Drills, Multi Crop Threshers, and genuine spare parts.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
-                    <button class="faq-question" aria-expanded="false">Do you offer installment plans?</button>
+                    <button class="faq-question" aria-expanded="false" data-i18n="faq.q2">Do you offer installment plans?</button>
                     <div class="faq-answer">
-                        <p>Yes! We provide flexible and easy monthly installment plans on selected agricultural machinery. Contact us for complete details and eligibility.</p>
+                        <p data-i18n="faq.a2">Yes! We provide flexible and easy monthly installment plans on selected agricultural machinery. Contact us for complete details and eligibility.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
-                    <button class="faq-question" aria-expanded="false">Do you deliver machinery to my village?</button>
+                    <button class="faq-question" aria-expanded="false" data-i18n="faq.q3">Do you deliver machinery to my village?</button>
                     <div class="faq-answer">
-                        <p>Absolutely. We offer fast and reliable delivery service to farmers across Pakistan, including remote villages.</p>
+                        <p data-i18n="faq.a3">Absolutely. We offer fast and reliable delivery service to farmers across Pakistan, including remote villages.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
-                    <button class="faq-question" aria-expanded="false">How can I get the latest price?</button>
+                    <button class="faq-question" aria-expanded="false" data-i18n="faq.q4">How can I get the latest price?</button>
                     <div class="faq-answer">
-                        <p>Call us at 0300-8312814 or send a message on WhatsApp at 0300-7919158. We will provide you with the latest prices and complete details.</p>
+                        <p data-i18n="faq.a4">Call us at 0300-8312814 or send a message on WhatsApp at 0300-7919158. We will provide you with the latest prices and complete details.</p>
                     </div>
                 </div>
             </div>
@@ -291,17 +292,17 @@
 
         <!-- Contact -->
         <section class="contact-home" aria-label="Contact information">
-            <h2 class="reveal">Contact Us</h2>
-            <p><strong>📍 Address:</strong> Adda Daina More, Tehsil Ahmadpur Sial, Jhang</p>
-            <p><strong>📞 Call:</strong> 0300-8312814</p>
-            <p><strong>💬 WhatsApp:</strong> 0300-7919158</p>
-            <p><strong>💰 Price:</strong> Available on Call</p>
+            <h2 class="reveal" data-i18n="contact.homeTitle">Contact Us</h2>
+            <p><strong data-i18n="contact.addressLabel">📍 Address:</strong> Adda Daina More, Tehsil Ahmadpur Sial, Jhang</p>
+            <p><strong data-i18n="contact.callLabel">📞 Call:</strong> <span class="phone-number">0300-8312814</span></p>
+            <p><strong data-i18n="contact.whatsappLabel">💬 WhatsApp:</strong> <span class="phone-number">0300-7919158</span></p>
+            <p><strong data-i18n="contact.priceLabel">💰 Price:</strong> Available on Call</p>
         </section>
 
         <!-- Google Map -->
         <section class="map" aria-label="Our location on Google Maps">
-            <h2 class="reveal">Our Location</h2>
-            <p>Visit our agricultural machinery showroom at Adda Daina More.</p>
+            <h2 class="reveal" data-i18n="contact.mapTitle">Our Location</h2>
+            <p data-i18n="contact.mapText">Visit our agricultural machinery showroom at Adda Daina More.</p>
             <iframe
               src="https://www.google.com/maps?q=khan+traders+and+Alshahbaz+ky+zarai+Allat,+Adda+Daina+More,+Ahmadpur+Sial,+Jhang&output=embed"
               width="100%"
@@ -319,9 +320,10 @@
     <!-- Footer -->
     <footer>
         <h3>Khan Traders & Al Shahbaaz Zarai Allaat</h3>
-        <p>Your Trusted Agricultural Machinery Dealer</p>
-        <p>📞 0300-8312814 | 💬 0300-7919158</p>
-        <p>📍 Adda Daina More, Tehsil Ahmadpur Sial, Jhang</p>
+        <p data-i18n="footer.tagline">Your Trusted Agricultural Machinery Dealer</p>
+        <p data-i18n="footer.phone">📞 0300-8312814</p>
+        <p data-i18n="footer.whatsapp">💬 WhatsApp: 0300-7919158</p>
+        <p data-i18n="footer.address">📍 Adda Daina More, Tehsil Ahmadpur Sial, Jhang</p>
         <p>&copy; 2026 Khan Traders & Al Shahbaaz Zarai Allaat. All Rights Reserved.</p>
         <p style="margin-top:10px;font-size:14px;opacity:0.7;">Designed & Developed by M I K</p>
     </footer>

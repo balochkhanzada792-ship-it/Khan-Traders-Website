@@ -111,16 +111,18 @@
 
 <h1>Khan Traders & Al Shahbaaz Zarai Allaat</h1>
 
+<button class="lang-toggle" type="button" aria-label="Switch to Urdu" data-lang-toggle>اردو</button>
+
 <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
     <span></span><span></span><span></span>
 </button>
 
 <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="gallery.html" aria-current="page">Gallery</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+    <li><a href="about.html" data-i18n="nav.about">About</a></li>
+    <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+    <li><a href="gallery.html" aria-current="page" data-i18n="nav.gallery">Gallery</a></li>
+    <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
 </ul>
 
 </nav>
@@ -131,12 +133,12 @@
 <nav aria-label="Breadcrumb">
     <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="index.html"><span itemprop="name">Home</span></a>
+            <a itemprop="item" href="index.html"><span itemprop="name" data-i18n="nav.home">Home</span></a>
             <meta itemprop="position" content="1">
             <span style="margin:0 4px;color:#8a9b8e;">›</span>
         </li>
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span itemprop="name" style="color:#425248;font-weight:600;">Gallery</span>
+            <span itemprop="name" style="color:#425248;font-weight:600;" data-i18n="nav.gallery">Gallery</span>
             <meta itemprop="position" content="2">
         </li>
     </ol>
@@ -147,81 +149,81 @@
 <section class="hero" aria-label="Gallery introduction">
     <img src="images/logo.jpg" alt="Khan Traders & Al Shahbaaz Zarai Allaat – Agricultural Machinery Dealer in Adda Daina More" width="320" height="240" decoding="async" class="hero-logo reveal">
     <div class="hero-text reveal">
-        <h2>Our Machinery Gallery</h2>
-        <p>Browse our collection of high-quality agricultural machinery available at Khan Traders & Al Shahbaaz Zarai Allaat. Click any image to enlarge.</p>
+        <h2 data-i18n="gallery.title">Our Machinery Gallery</h2>
+        <p data-i18n="gallery.text">Browse our collection of high-quality agricultural machinery available at Khan Traders & Al Shahbaaz Zarai Allaat. Click any image to enlarge.</p>
     </div>
 </section>
 
 <section class="products" aria-label="Agricultural machinery image gallery">
-    <h2 class="reveal">Gallery</h2>
-    <p class="section-subtitle reveal">Click on any image to view in full size</p>
+    <h2 class="reveal" data-i18n="nav.gallery">Gallery</h2>
+    <p class="section-subtitle reveal" data-i18n="gallery.subtitle">Click on any image to view in full size</p>
     <div class="product-container">
 
         <div class="card reveal-left">
             <img src="images/wheat-thresher.jpg" alt="Heavy-duty Wheat Thresher machine for high productivity grain separation – Khan Traders agricultural machinery" width="960" height="720" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Wheat Thresher</h3>
+            <h3 data-i18n="gallery.wheat">Wheat Thresher</h3>
         </div>
 
         <div class="card reveal-right">
             <img src="images/rice-thresher.jpg" alt="High-performance Rice Thresher machine for fast and efficient harvesting – Khan Traders" width="960" height="720" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Rice Thresher</h3>
+            <h3 data-i18n="gallery.rice">Rice Thresher</h3>
         </div>
 
         <div class="card reveal-left">
             <img src="images/laser-land-leveler.jpg" alt="Advanced Laser Land Leveler for accurate field leveling and better irrigation – Khan Traders" width="960" height="720" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Laser Land Leveler</h3>
+            <h3 data-i18n="gallery.laser">Laser Land Leveler</h3>
         </div>
 
         <div class="card reveal-right">
             <img src="images/rotavator.jpg" alt="Powerful Rotavator for effective soil preparation saving time and fuel – Khan Traders" width="960" height="475" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Rotavator</h3>
+            <h3 data-i18n="gallery.rotavator">Rotavator</h3>
         </div>
 
         <div class="card reveal-left">
             <img src="images/reaper-machine.jpg" alt="Reliable Wheat and Rice Reaper Machine for fast and efficient harvesting – Khan Traders" width="960" height="560" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Reaper Machine</h3>
+            <h3 data-i18n="gallery.reaper">Reaper Machine</h3>
         </div>
 
         <div class="card reveal-right">
             <img src="images/seed-drill.jpg" alt="Precision Seed Drill for accurate seed placement and uniform crop growth – Khan Traders" width="960" height="720" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Seed Drill</h3>
+            <h3 data-i18n="gallery.seed">Seed Drill</h3>
         </div>
 
         <div class="card reveal-left">
             <img src="images/multicrops-thresher.jpg" alt="Versatile Multi Crop Thresher for processing different crops with high efficiency – Khan Traders" width="960" height="475" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Multi Crop Thresher</h3>
+            <h3 data-i18n="gallery.multiCrop">Multi Crop Thresher</h3>
         </div>
 
         <div class="card reveal-right">
             <img src="images/spare-parts.jpg" alt="Genuine Laser Land Leveler spare parts with long service life – Khan Traders" width="960" height="720" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Spare Parts</h3>
+            <h3 data-i18n="gallery.spareParts">Spare Parts</h3>
         </div>
 
         <!-- Shop Image -->
         <div class="card reveal-left">
             <img src="images/shop.jpg" alt="Khan Traders & Al Shahbaaz Zarai Allaat shop front at Adda Daina More" width="960" height="720" loading="lazy" decoding="async" class="gallery-img">
-            <h3>Our Shop</h3>
+            <h3 data-i18n="gallery.shop">Our Shop</h3>
         </div>
 
     </div>
 </section>
 
 <section class="contact-home" aria-label="Contact information and call to action">
-    <h2 class="reveal">Need More Information?</h2>
-    <p>Contact us today for prices, installments and machinery details.</p>
+    <h2 class="reveal" data-i18n="contact.more">Need More Information?</h2>
+    <p data-i18n="gallery.contactText">Contact us today for prices, installments and machinery details.</p>
     <br>
-    <a href="tel:03008312814" class="btn">📞 Call Now</a>
-    <a href="https://wa.me/923007919158" class="btn btn-whatsapp">💬 WhatsApp</a>
+    <a href="tel:03008312814" class="btn" data-i18n="cta.call">📞 Call Now</a>
+    <a href="https://wa.me/923007919158" class="btn btn-whatsapp" data-i18n="cta.whatsapp">💬 WhatsApp</a>
 </section>
 
 </main>
 
 <footer>
     <h3>Khan Traders & Al Shahbaaz Zarai Allaat</h3>
-    <p>Trusted Agricultural Machinery Dealer</p>
-    <p>📍 Adda Daina More, Tehsil Ahmadpur Sial, Jhang</p>
-    <p>📞 0300-8312814</p>
-    <p>💬 WhatsApp: 0300-7919158</p>
+    <p data-i18n="footer.tagline">Trusted Agricultural Machinery Dealer</p>
+    <p data-i18n="footer.address">📍 Adda Daina More, Tehsil Ahmadpur Sial, Jhang</p>
+    <p data-i18n="footer.phone">📞 0300-8312814</p>
+    <p data-i18n="footer.whatsapp">💬 WhatsApp: 0300-7919158</p>
     <p>&copy; 2026 Khan Traders & Al Shahbaaz Zarai Allaat. All Rights Reserved.</p>
     <p style="margin-top:10px;font-size:14px;opacity:0.7;">Designed & Developed by M I K</p>
 </footer>

@@ -50,6 +50,45 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+body[dir="rtl"] {
+    direction: rtl;
+    font-family: "Jameel Noori Nastaleeq", "Noto Nastaliq Urdu", "Noto Naskh Arabic", "Segoe UI", Tahoma, sans-serif;
+}
+
+body[dir="rtl"] nav,
+body[dir="rtl"] nav ul,
+body[dir="rtl"] .hero,
+body[dir="rtl"] .stats-grid,
+body[dir="rtl"] .product-container,
+body[dir="rtl"] .why-box,
+body[dir="rtl"] .testimonial-carousel,
+body[dir="rtl"] .faq-list,
+body[dir="rtl"] .contact-home,
+body[dir="rtl"] footer {
+    direction: rtl;
+}
+
+body[dir="rtl"] nav ul {
+    flex-direction: row-reverse;
+}
+
+body[dir="rtl"] .hero-text,
+body[dir="rtl"] .faq-answer,
+body[dir="rtl"] .contact-home p,
+body[dir="rtl"] .section-subtitle {
+    text-align: right;
+}
+
+body[dir="rtl"] .faq-question {
+    text-align: right;
+}
+
+.phone-number {
+    direction: ltr;
+    unicode-bidi: isolate;
+    display: inline-block;
+}
+
 /* ---------- Skip link (accessibility) ---------- */
 .skip-link {
     position: absolute;
@@ -132,6 +171,26 @@ nav h1 {
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: -0.02em;
+}
+
+.lang-toggle {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 8px 14px;
+    min-width: 86px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-size: 14px;
+}
+
+.lang-toggle:hover,
+.lang-toggle:focus-visible {
+    background: var(--gold);
+    color: var(--green-dark);
+    outline: none;
 }
 
 .menu-toggle {
